@@ -192,7 +192,45 @@ body {
 .contact-form { 
 	display: flex; 
 	flex-direction: column; 
-} 
+}
+	/* Style for form container */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input fields */
+.form-controls {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for textarea */
+.form-controls textarea {
+    resize: vertical;
+}
+
+/* Style for submit button */
+.form-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+.form-btn:hover {
+    background-color: #0056b3;
+}
 
 .contact-form .form-controls { 
 	width: 80%; 

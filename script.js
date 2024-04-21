@@ -15,3 +15,13 @@ hamburger.addEventListener('click', function () {
 		menu.style.display = "block"
 	} 
 });
+const form = document.querySelector('.contact-form');
+const submitButton = document.querySelector('.form-btn');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault(); // Prevent form submission
+
+    // Your logic here (e.g., send data to server, show success message)
+    // For demonstration purposes, let's just show an alert:
+    alert('Form submitted successfully!');
+});
